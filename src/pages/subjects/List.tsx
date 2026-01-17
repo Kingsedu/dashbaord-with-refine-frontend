@@ -20,7 +20,7 @@ import { Badge } from "@/components/ui/badge";
 import { DataTable } from "@/components/refine-ui/data-table/data-table";
 
 const SubjectsList = () => {
-  console.log(DEPARTMENTS_OPTIONS);
+  //   console.log(DEPARTMENTS_OPTIONS);
   const [searchQuery, setSearchQuery] = useState<string>("");
   const [selectedDepartment, setSelectedDepartment] = useState("all");
 
